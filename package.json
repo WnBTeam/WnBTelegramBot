@@ -1,0 +1,14 @@
+{
+  "name": "wnbtelegrambot",
+  "version": "1.0.0",
+  "description": "Bot for making orders in W&B Software Developers Team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
