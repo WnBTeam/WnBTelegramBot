@@ -114,7 +114,7 @@ bot.on('message', (msg) => {
             bot.sendMessage(opositeUser.chatId, msg.text);
             break;
         }
-        case(!task):{
+        case(!task && !user.admin):{
             db.create('task', {user: user.id, chatId: msg.chat.id, type: 'connect', message: msg.text});
 
             const keyboard = [[locale['YES'], locale['NO']]];
